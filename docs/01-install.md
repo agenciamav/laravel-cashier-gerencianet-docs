@@ -27,7 +27,6 @@ composer remove gerencianet/gerencianet-sdk-php
 
 - As extensões do PHP `cURL`, `json`, `ext-simplexml` e `openssl` precisam estar ativadas.
 
-
 ## Instalação
 
 Para começar, instale o pacote via composer:
@@ -37,7 +36,6 @@ composer require agenciamav/laravel-cashier-gerencianet
 ```
 
 ## Configuração
-
 
 ### Modelo faturável
 
@@ -57,7 +55,7 @@ Por padrão, o Laravel Cashier Gerencianet utiliza o model `App\Models\User` par
 Se você quiser mudar isto, você pode especificar um model diferente pelo método `useCustomerModel`.
 Este método pode ser chamado no `boot` do `AppServiceProvider`:
 
-```php 
+```php
 // AppServiceProvider.php
 
 use App\Models\Customer;

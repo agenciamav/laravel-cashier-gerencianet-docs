@@ -1,11 +1,13 @@
-## Contributing
+## Contribuição
 
-Contributions are highly welcomed.
+Sua contribuição é muito bem-vinda!
 
-To start contributing, follow these steps:
+Para ajudar com a documentação, siga os passos:
 
-1. Fork this repository and `git clone` your version
-1. Install the dependencies (including Vuepress) with `npm install` (or use yarn)
-1. Edit the documentation and view the output with Vuepress using `npm run dev`
-1. When satisfied, format your code using `npx prettier --write .`
-1. Commit your changes to the branch on your fork and submit a new PR to this master branch
+1. Faça um fork deste repositório e clone o seu fork.
+2. Instale as dependências com NPM `npm install`.
+3. Execute o comando `npm run dev` para iniciar o desenvolvimento local.
+4. Edite a documentação.
+5. Quando terminar, execute `npx prettier --write .` para formatar o código.
+6. Comite e envie seu código para o seu fork.
+7. Envie seu PULL REQUEST para a branch main.
