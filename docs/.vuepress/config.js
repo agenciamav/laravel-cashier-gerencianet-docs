@@ -2,31 +2,7 @@ module.exports = {
   title: 'Laravel Cashier Gerencianet',
   description: 'Documentação do Laravel Cashier Gerencianet',
   head: [
-    // ['link', { rel: "apple-touch-icon", sizes: "180x180", href: "/assets/favicons/apple-touch-icon.png" }],
-    // ['link', { rel: "apple-touch-icon", sizes: "180x180", href: "/icons/apple-icon-180x180.png" }],
-    // ['link', { rel: "icon", href: "/logo.png" }],
-
-    // ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/assets/favicons/favicon-32x32.png" }],
-    // ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/icons/favicon-32x32.png" }],
-
-    // ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "/assets/favicons/favicon-16x16.png" }],
-    // ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "/icons/favicon-16x16.png" }],
-
     ['link', { rel: "manifest", href: "/manifest.webmanifest" }],
-
-    // ['link', { rel: "mask-icon", href: "/assets/favicons/safari-pinned-tab.svg", color: "#ff665c" }],
-    // ['link', { rel: "mask-icon", href: "/icons/safari-pinned-tab.svg", color: "#ff665c" }],
-
-    // ['link', { rel: "shortcut icon", href: "/assets/favicons/favicon.ico" }],
-    // ['link', { rel: "shortcut icon", href: "/icons/favicon.ico" }],
-
-    // ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    // ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    // ['meta', { name: "msapplication-TileColor", content: "#ff665c" }],
-
-    // ['meta', { name: "msapplication-config", content: "/assets/favicons/browserconfig.xml" }],
-    // ['meta', { name: "msapplication-config", content: "/icons/browserconfig.xml" }],
-
     ['link', { rel: "apple-touch-icon", sizes: "57x57", href: "/icons/apple-icon-57x57.png" }],
     ['link', { rel: "apple-touch-icon", sizes: "60x60", href: "/icons/apple-icon-60x60.png" }],
     ['link', { rel: "apple-touch-icon", sizes: "72x72", href: "/icons/apple-icon-72x72.png" }],
@@ -78,6 +54,9 @@ module.exports = {
       '/',
       '/01-install',
     ]
+  },
+  markdown: {
+    lineNumbersMode: false
   },
   plugins: [
     ['seo', {

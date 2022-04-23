@@ -43,12 +43,12 @@ Antes de utilizar, adicione o trait `Billable` ao model que representa um client
 Este trait proverá vários métodos para gerenciar a assinatura do cliente.
 
 ```php
-    use AgenciaMav\LaravelCashierGerencianet\Traits\Billable;
+use AgenciaMav\LaravelCashierGerencianet\Traits\Billable;
 
-    class User extends Authenticatable
-    {
-        use Billable;
-    }
+class User extends Authenticatable
+{
+    use Billable;
+}
 ```
 
 Por padrão, o Laravel Cashier Gerencianet utiliza o model `App\Models\User` para faturar.

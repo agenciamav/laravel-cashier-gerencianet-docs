@@ -5,3 +5,21 @@
 html.dark {
   --c-brand: #ff665c;
 }
+
+.back-to-top:hover {
+  background-color: var(--back-to-top-color) !important;
+}
+
+.line-numbers-mode .line-numbers {
+  display: none;
+}
+div[class*="language-"].line-numbers-mode pre {
+  margin-left: 0;
+  padding-left: 1.75rem;
+  vertical-align: middle;
+}
+.line-numbers-mode::after,
+.line-numbers-mode .line-numbers:after {
+  display: none !important;
+  width: 0px;
+}

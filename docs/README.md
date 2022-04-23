@@ -2,8 +2,12 @@
 title: "Introdução"
 description: ""
 tags: []
-image: "https://raw.githubusercontent.com/agenciamav/laravel-cashier-gerencianet/master/art/cover.jpg"
+heroImage: "https://raw.githubusercontent.com/agenciamav/laravel-cashier-gerencianet/master/art/cover.jpg"
 date: 2022-04-23
+actions:
+  - text: Introdução
+    link: /
+    type: primary
 ---
 
 # Laravel Cashier Gerencianet
