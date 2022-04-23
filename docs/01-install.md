@@ -8,6 +8,26 @@ date: 2019-09-17
 
 # Instalação e configuração
 
+::: warning ATENÇÃO!
+Laravel Cashier Gerencianet na versão atual, é ainda um trabalho inicial em fase de desenvolvimento.
+Não utilize em produção até o lançamento de uma versão beta.
+:::
+
+## Requisitos
+
+- Laravel 9.x
+- PHP 8.x
+
+O Laravel Cashier Gerencianet utiliza o `gerencianet/gerencianet-sdk-php:4.x`.
+Se você já tem o PHP SDK da Gerencianet instalado, precisará removê-lo:
+
+```shell
+composer remove gerencianet/gerencianet-sdk-php
+```
+
+- As extensões do PHP `cURL`, `json`, `ext-simplexml` e `openssl` precisam estar ativadas.
+
+
 ## Instalação
 
 Para começar, instale o pacote via composer:
